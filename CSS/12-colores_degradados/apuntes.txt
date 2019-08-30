@@ -1,0 +1,20 @@
+* La propiedad color es el color de texto es el que se manipula 
+
+
+* Hay dos modelos de color básicos:
+    - Sustrativo. Se refiere a pintura (papel por la imprenta o pintar una pared) o sea absorve la luz.
+    - Aditivo. En pantalla genera algo más luminoso (blanco)
+
+
+* Colores RGB 
+    - ES un color aditivo o sea que si ponemos 255 en los tres canales darán un color blanco
+    . rgba 
+        - la a significa transparencia que va de 0 a 1
+
+* Los degradados son imagenes 
+    - Puedes utilizar todas las propiedades de background
+
+
+* Existen dos tipos tipos de degradados 
+    - Lineales. lineales
+    - GRadiales. Circulares

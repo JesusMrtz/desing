@@ -1,0 +1,7 @@
+.list span {
+    color: red;
+}
+
+.list.tag {
+    color: blue;
+}

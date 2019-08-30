@@ -1,0 +1,6 @@
+Especificidad, herencia y cascada
+
+- La gente que no entiende CSS reniega de él
+- Arquitectura - SMACSS, OOCSS, ITCSS
+- Librerias, frameworks css pueden generar conflictos
+- Los problemas de css generalmente están en el código que ya existe asi que no se debe solucionar añadiendo mas CSS

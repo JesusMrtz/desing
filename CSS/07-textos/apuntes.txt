@@ -1,0 +1,85 @@
+* Undades em y rem 
+    - em es el tamaño de fuente del contexto 
+    - rem es el tamaño de fuente del root 
+
+* Alineado de texto 
+    - direction 
+        - Cambia la direcciòn del texto
+        - direction: ltr | rtl
+
+    - text-indent 
+        - Permite identar la primera linea de un párrafo
+        - text-indent: 2em;
+
+    - text-align 
+        - Permite alinear el texto
+        - text-aling: start | end | left | center | right | justify
+
+    - text-align-last 
+        - Permite alinear la ultima linea de un texto 
+        - text-align-last: stat | endt | left | center | right | justify
+
+    - line-height 
+        - Permite definir la altura de cada linea
+        - de 1.2 a 1.6 se da el espacio para una buena lectura 
+        - line-height: 1.5;
+
+    - vertical-align:
+        - Permite alinear verticalmente 
+        - vertical-align: baseline | top | middle | bottom 
+
+
+* Flujo del texto 
+    - letter-spacing:
+        - Es el espaciado entre las letras
+        - letter-spacing: 0.02em;
+    
+    - word-spacing:
+        - Es el espaciado entre las palabras
+
+
+* Decoración 
+    - text-decoration 
+        - Dibjar lineas horizontales en el texto
+        - text-decoration-line: underline | overline| line-through;
+        - text-decoration-color: red;
+        - text-decoration-style: solid | dashed | dotted | double | cualquier border se pude utilizar
+        - text-decoration: 
+
+    - text-shadow: 
+        - Genera sombras la diferencia entre box-shadow es que no contiene la expanción
+        - text-shadow: h-offset | v-offset | blur | color
+
+    - white-space: 
+    - Maneja el espacio en blanco en el código
+    - white-space: normal | pre | nowrap | pre-wrap | pre-line 
+        * nowrap: No saltar de linea
+        * pre-wrap: salta de lineas y conserva el espacio 
+        * pre-line: salta de linea y no coserva el espacio
+
+    - vertical-align 
+        - Ponner el texto vertical ( para eso se necesita las dos propiedades juntas: writing-mode y text-orientation)
+        - writing-mode: vertical-lr;
+        - text-orentation: upright;
+        
+        
+* Desbordamiento:
+        - word-break: 
+            - PArte las palabras si cae en el limite de texto, la propiedad la rompe y la manda abajo
+            -word-break: normal | break-all | keap-all
+
+        - word-wrap:
+            -  Parte las palabras si caen en el limite
+            - word-wrap: normal | break-word
+
+        - text-overflow: 
+            - Oculta las palabras que no dan (Hay que conbinarlo con overflow: hidden; para que funcione)
+            - text-overflow: clip | ellipsis
+
+        - text-transform: 
+            - Tranformar las palabras de un nodo 
+            - text-transform: uppercase | lowercase | capitalize | none 
+
+
+
+        

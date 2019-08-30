@@ -1,0 +1,8 @@
+body {
+    font-size: 2em;
+}
+
+p {
+    /*direction: rtl;*/
+    text-indent: 2em;
+}

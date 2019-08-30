@@ -1,0 +1,48 @@
+* Diferencia de texto y fuente 
+    - Texto es el contenido
+    - Fuente es el tipo de letra
+
+
+* font-family 
+    - Es la familia tipografica 
+        * Famimia tipografica genericas
+            - serif. (Fuentes romanas) son la fuentes que tienen adorno al final 
+            - sans-serif . No contienen adornos al final
+            - monospace. Son aquellas en la que cada glifo tienen el mismo tamaño
+            - display. Son las fuentes que se utilizan en titulos 
+            - cursive.- Son aquellas que tienen una inclinacion
+
+
+* font-size 
+    - Nos permite definir el tamaño de la tipográfia 
+
+
+* Font-weight 
+    - Es el grosor de los trazos de las palabras
+    - font-weight: normal | bold |ligther | bolder 
+                    o numeros de 100 en 100 hasta llegar al 900
+                        - siendo 100 el más delgado y el 900 el más grueso
+                    100| 200 .. | 900
+
+
+* font-style 
+    - Es el estilo de la letra 
+    - font-style: normal|italic|oblique|initial|inherit;
+
+
+* font-variant
+    - 
+    - font-variant: small-caps
+
+* shrthand font 
+    - font-family font-size / line-height
+
+
+* PAra exportar tipografias a nuestro proyecto se necesita la at-rule @font-face y la extension de la tipografia se recumiento .woff para web
+
+    * @font-face {
+        font-family: nombre,
+        font-weight: value, 
+        font-style: value, 
+        src: local(font) url(path) format(woff2)
+    }

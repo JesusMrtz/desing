@@ -1,0 +1,17 @@
+body {
+    font-size: 2em;
+}
+
+.chapters {
+    counter-reset: chapters;
+}
+
+.chapter {
+    counter-increment: chapters;
+}
+
+.chapter::before {
+    content: counter(chapters) '.';
+    color: red;
+    margin-right: .5em;
+}

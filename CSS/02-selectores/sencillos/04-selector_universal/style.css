@@ -1,0 +1,22 @@
+/*
+* {
+    color: red;
+}
+*/
+
+body {
+    font-size: 2em;
+}
+
+ul * {
+    display: none;
+}
+
+.last {
+    color: blue;
+}
+
+span {
+    display: inline;
+    color: blue;
+}

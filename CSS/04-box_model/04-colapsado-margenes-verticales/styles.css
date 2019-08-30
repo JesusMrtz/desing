@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/*
+body {
+    margin: 0;
+}
+
+.article {
+    background: yellow;
+    padding-top: 0.1px;
+}
+*/
+
+article {
+    background: yellow;
+}
+
+.article-1 {
+    margin-bottom: 100px;
+}
+
+.article-2 {
+    margin-top: 100px;
+}

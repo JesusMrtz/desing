@@ -1,0 +1,19 @@
+Los navegadores:
+
+1993 - Mosaic 
+1994 - Netscape
+1995 - Internet Explorer 
+1996 - Opera 
+2003 - Safari 
+2004 - Mozilla firefox 
+2008 - Google Chrome 
+
+
+Actualidad 
+    - El navegador es como un sistema operativo 
+    - PWA
+    - Chromebook 
+    - Electron - Framework que te permite crear aplicaciones de escritorio con tecnologias web
+    - Ionic 
+    - Rect Native 
+    - Web components 

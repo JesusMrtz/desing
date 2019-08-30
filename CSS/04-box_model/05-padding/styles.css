@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/*
+body {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+[class^="article"] {
+    background: yellow;
+    padding: 10% 10%;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
+
+.video {
+    background: yellow;
+    padding-bottom: 56.29%;
+}

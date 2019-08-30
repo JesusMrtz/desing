@@ -1,0 +1,10 @@
+body {
+    font-size: 2em;
+}
+
+p {
+    /*direction: rtl;*/
+    margin: 2em;
+    text-indent: 2em;
+    text-align: justify;
+}

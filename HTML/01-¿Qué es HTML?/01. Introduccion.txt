@@ -1,0 +1,18 @@
+HTML es la primera tecnología es que debes aprender si quieres entrar al mundo de la web.
+EL lenguaje con mayor demanda hoy en día es JavaScript
+
+Tim Beners Lee creo HTML y la web juntos
+
+HTML - Hyper Text Markup Language
+
+El hipertexto es un link que te conecta a otro lugar (Todo está conectado)
+
+
+¿Que es internet?
+    - Es la infraestructura mundial tecnologia que permite que todas las computadoras se conecten
+¿Qué es la web?
+    - Es un conjunto de documentos HTML enlazados a traves de hipertexto
+La web se conforma de tres conceptos:
+    - URL: Uniform Resource Locator
+    - HTTP: HyperText Transfer Protocol
+    - HTML: HyperText Markup Language

@@ -1,0 +1,7 @@
+Especificidad
+
+- Tags: 1
+- Clases: 10
+- ID: 100
+- Inline: 1000
+- !important = El que tiene mas Especificidad

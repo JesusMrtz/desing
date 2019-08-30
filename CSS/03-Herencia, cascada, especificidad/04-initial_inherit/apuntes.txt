@@ -1,0 +1,2 @@
+Initial: Resetea sus colores por defecto
+inherit: Hereda los colores de su etiqueta padre

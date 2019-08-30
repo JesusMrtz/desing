@@ -1,0 +1,31 @@
+body {
+    font-size: 3em;
+}
+
+span {
+    font-size: .5em;
+}
+
+p {
+    color: red;
+}
+
+a {
+    color: initial;
+}
+
+ul {
+    color: red;
+}
+
+li {
+    color: initial;
+}
+
+.last {
+    color: inherit;
+}
+
+ul span {
+    font-size: inherit;
+}

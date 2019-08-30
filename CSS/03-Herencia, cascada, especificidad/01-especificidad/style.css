@@ -1,0 +1,15 @@
+body {
+    font-size: 3em;
+}
+
+.post-description {
+    color: red;
+}
+
+.product-description {
+    color: green;
+}
+
+.small {
+    font-size: .75em;
+}

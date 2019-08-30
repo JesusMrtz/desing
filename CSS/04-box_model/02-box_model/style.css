@@ -1,0 +1,15 @@
+.box {
+    background: yellow;
+    /** ES donde inicia el bakcground 
+    La propiedad CSS background-clip especifica si el fondo de un elemento, ya sea el color o imagen, se extiende por debajo su borde*/
+    background-clip: content-box;
+    /* Box model */
+    width: 500px;
+    height: 300px;
+    padding: 50px;
+    border: 10px solid black;
+    margin: 50px;
+    /** Por defecto tiene box-sizing 
+    box-sizing sirve para ajustar los tamaños del border  y si le ponemos border-box hacer que las sumas no afecten a la altura y anchura**/
+    box-sizing: border-box;
+}

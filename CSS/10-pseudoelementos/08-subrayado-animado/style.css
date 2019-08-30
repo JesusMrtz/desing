@@ -1,0 +1,22 @@
+body {
+    font-size: 2.5em;
+    margin: 1em;
+}
+
+h1 {
+    display: table;
+}
+
+h1::after {
+    content: "";
+    display: block;
+    height: 3px;
+    background: red;
+    transform: scale(0, 1);
+    transform-origin: center left;
+    transition: transform .25s;
+}
+
+h1:hover::after {
+    transform: scale(1, 1);
+}

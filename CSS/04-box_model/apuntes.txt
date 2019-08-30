@@ -1,0 +1,25 @@
+¿Qué es layout?
+    R = Es la geometrica de los elementos (ancho, alto, donde se mostrará)
+
+Elemento inline
+    - No crea nuevas lineas para cada elemento
+    - Tiene ancho pero no alto
+    - Se ajusta al contenido
+
+Elementos de bloque 
+    - Crea una nueva linea por cada elemento
+    - Ocupa todo el espacio horizontal disponible
+    - Tiene ancho y alto
+
+El box model 
+    - Es el algoritmo por el cual el navegador dibuja las cajas en pantalla (solo se aplica a los elementos de bloque)
+    - Existen 3 tipos de cajas
+        - Contenido (Content box)
+        - Padding (Padding box)
+        - Border (Border box)
+        - Marge (Separación de las cajas con las cajas adyacentes)
+
+Las maneras de reparar el colapsado vertical es ponerle un padding-top al elemento contenedor
+La separación entre contenedores por margenes el mayor siempre gana
+
+Las dimensiones

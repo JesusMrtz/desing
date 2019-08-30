@@ -1,0 +1,12 @@
+body {
+    font-size: 2.5em;
+    margin: 1em;
+}
+
+h1::before {
+    content: '¿'
+}
+
+h1::after {
+    content: "?";
+}

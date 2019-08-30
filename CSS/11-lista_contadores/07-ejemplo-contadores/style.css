@@ -1,0 +1,14 @@
+ol {
+    counter-reset: list;
+}
+
+li {
+    counter-increment: list;
+    list-style: none;
+}
+
+li::before {
+    content: counters(list, ".")'. ';
+    color: red;
+    font-size: 1em;
+}

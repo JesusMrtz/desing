@@ -1,0 +1,11 @@
+body {
+    height: 100vh;
+    /*height: 100vh;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/250px-HTML5_logo_and_wordmark.svg.png"), url("https://vignette.wikia.nocookie.net/reinoanimalia/images/3/38/Tigre_1.png/revision/latest?cb=20130414074332&path-prefix=es"), url("https://ed.team/static/images/logo.svg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 15%, 50%, 20%;
+    background-position: top left, center, bottom 20px right 20px;*/
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/250px-HTML5_logo_and_wordmark.svg.png") 0 20px / 15%, url("https://ed.team/static/images/logo.svg") bottom 20px right 20px / 25%, url("https://vignette.wikia.nocookie.net/reinoanimalia/images/3/38/Tigre_1.png/revision/latest?cb=20130414074332&path-prefix=es") center / contain, yellow;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    width: 500px;
+    height: 300px;
+    background-image: url("https://i.ytimg.com/vi/mEZOnudn-NM/hqdefault.jpg");
+    background-clip: content-box;
+    background-origin: content-box;
+    padding: 50px;
+    border: 5px solid black;
+    box-shadow: 0 10px 30px -10px #000;
+    border-radius: 5px;
+    margin: 100px auto;
+}

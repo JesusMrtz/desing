@@ -1,0 +1,3 @@
+.main article:nth-child(even) {
+    background: red;
+}

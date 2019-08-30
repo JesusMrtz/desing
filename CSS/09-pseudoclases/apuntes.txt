@@ -1,0 +1,21 @@
+Las pseudoclases son selectores especiales 
+
+:root 
+    - Hace referencia al nodo principal del documento HTML pero tiene mas especificidad esta psudoclase que la etiqueta html 
+
+
+:hover 
+    - Se pesenta cuando el usuario coloca el puntero sobre algun elemento, pero no necesariamente está activo, en pantallas tactiles :hover es problematico
+
+
+:active 
+    - Cubre el caso en el que un elemento esta siendo activado por el usuario. Cuando se interactua con el ratón,  se corresponde al momento en el que el usuario  presiona el botón del raton hasta que lo suelta. A menudo es utilizado en los elementos <a> y <button>
+    El orden si importa: 
+        1. :link 
+        2. :visited 
+        3. :hover 
+        4. :active 
+
+
+:target 
+    -  Representa un elemento único, si existe alguno, con un id coincidente con el identificador de fragmentos de la URI del documento 

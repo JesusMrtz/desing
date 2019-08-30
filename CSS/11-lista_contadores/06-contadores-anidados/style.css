@@ -1,0 +1,25 @@
+body {
+    font-size: 2em;
+}
+
+.class {
+    counter-reset: class-title;
+}
+
+.class__title {
+    counter-increment: class-title;
+    counter-reset: class-topic;
+}
+
+.class__topic {
+    counter-increment: class-topic;
+}
+
+.class__title::before {
+    content: counter(class-title) ". ";
+    font-weight: normal;
+}
+
+.class__topic::before {
+    content: counter(class-title) "." counter(class-topic) ". ";
+}

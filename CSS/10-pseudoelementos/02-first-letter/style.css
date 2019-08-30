@@ -1,0 +1,18 @@
+body {
+    font-size: 2.5em;
+    margin: 1em;
+}
+
+
+/*p::first-letter {
+    color: rebeccapurple;
+}*/
+
+p:last-of-type::first-letter {
+    color: red;
+    font-size: 2.2em;
+    margin-right: .1em;
+    float: left;
+    line-height: .8;
+    font-family: sans-serif;
+}

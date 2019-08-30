@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Campos de selección</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Registrate</legend>
+        <input type="text" placeholder="Usuario">
+        <input type="password" placeholder="Correo electrónico">
+    </fieldset>
+    <fieldset>
+        <legend>Tus pasatiempos</legend>
+        <label>
+            <input type="checkbox"> Deporte
+        </label>
+        <label>
+                <input type="checkbox"> Cine 
+        </label>
+        <label>
+                    <input type="checkbox"> Leer
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Género</legend>
+        <label>
+            <input type="radio" name="gender"> Hombre
+        </label>
+        <label>
+            <input type="radio" name="gender"> Mujer
+        </label>
+        <label>
+                <input type="radio" name="gender"> prefiero no decirlo
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Paises</legend>
+        <select name="country" id="country" multiple>
+            <optgroup label="America">
+                <option value="Perú">Perú</option>
+                <option value="MX">México</option>
+            </optgroup>
+            <optgroup label="Europa" multiple>
+                <option value="ES">España</option>
+                <option value="IT">Italia</option>
+            </optgroup>
+        </select>
+    </fieldset>
+</body>
+
+</html>

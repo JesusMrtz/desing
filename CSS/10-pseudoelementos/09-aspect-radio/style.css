@@ -1,0 +1,9 @@
+.box {
+    background: red;
+}
+
+.box::before {
+    content: "";
+    display: block;
+    padding-bottom: 56.25%;
+}

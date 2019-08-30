@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    width: 500px;
+    height: 200px;
+    background-image: url("https://i.ytimg.com/vi/mEZOnudn-NM/hqdefault.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+}

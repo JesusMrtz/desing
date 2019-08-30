@@ -1,0 +1,19 @@
+span {
+    margin-left: 20em;
+    display: list-item;
+}
+
+ol,
+ul {
+    /*border: 1px solid #000;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*list-style-type: none;*/
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+li {
+    /*border: 1px solid red;*/
+    margin-bottom: 10px;
+}

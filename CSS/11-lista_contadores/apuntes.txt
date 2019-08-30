@@ -1,0 +1,31 @@
+Listas y contadores 
+
+displaY: list-item:
+    - Se puede convertir cualquier elemento html a lista ul con esta propiedad
+
+
+* Propiedades de la listas 
+    - list-style-type 
+        - El tipo de viñeta que se mostrará
+        - No importa i le ponemos la propiedad a li o al ul u ol
+        - list-style-type: disc | circle | square | decimal | decimal-leading-zero | lower-alpha | upper-alpha | none | .. etc 
+
+    - list-style-image 
+        - No es recomendable ya que desfaza las listas para eso se utiliza los pseudolementos on propiedades background y display inline-block
+        - list-style-image: url("direcionImagen");
+
+
+* Contadores 
+    - Como en las listas, las viñetas no se pueden personalizar, se utilizan los contadores para dicha acción (se puede utilizar en cualquier elemento HTML).
+        - se utilizar las propiedades counter-reset para iniciar una variable contable con el nombre que tu quieras
+
+    counter-reset: nombreQueQuieras
+        - Se debe declarar en el padre donde se utilizará el contador
+    
+    counter-increment 
+        - Se incrementa en uno por cada hijo iterado
+        - esta propiedad se declara en la regla de los hijos
+        - counter-increment: nombreQueSelePusoACounterReset
+
+    counter(nombreQueSelePusoACounterReset)
+        - Función para imprimir el contador

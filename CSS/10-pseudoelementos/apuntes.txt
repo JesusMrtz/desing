@@ -1,0 +1,19 @@
+Introducción a las pseudoclases 
+
+::first-line ::first-letter 
+    - Solo funciona para elementos de bloque 
+    - Selecciona la primera letra o la primera linea 
+
+
+::before ::after 
+    - Contenido generado
+    - Se debe generar contenido para que el elemento se dibuje con la propiedad content: "contenido";
+        - imprimir atributos con content: attr(class), content:"[attr(href)]" o imagenes con content: url()
+    - Estos pseudoelementos serán hijos del elemento seleccionado anter y después del él 
+    - inline por defecto
+
+quotes : 
+    - La propiedad quotes sirve para imprimir comillas con más estilo
+    - Necesita para funcionar la comilla de apertura y de cierre 
+    - quote: ' " ' ' " ' | propiedades unicode
+     con los pseudolementos ::before y ::After;

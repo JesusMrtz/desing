@@ -1,0 +1,21 @@
+Las propiedades del borde CSS le permiten especificar el estilo, el ancho y el color del borde de un elemento.
+
+Los shurthands son:
+    * border-style: none (por defecto) | hidden | solid | dotted |dashed | double | groove | ridge | insert | outset
+    * border-width: thin |medium | thick | medida
+    * border-color: Hereda el color del elemento
+
+
+EL border radius sirve para dar aparicencia redonda a los elementos
+
+el outline asi no se utiliza ya que es un especie de margen fuera del elemento, no es parte del modelo de caja y su funcionalidad puede servir para el debug de diseño
+        outline: 1px solid red;
+
+
+
+box-shadow son las sombras
+        * box-shadow: h-offset v-offset blur spread color | inset
+        blur: difuminado
+        spread: expancion
+        inset si la sombre se quiere ver dentro del elemento
+    

@@ -1,0 +1,19 @@
+span {
+    margin-left: 20em;
+    display: list-item;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+li::before {
+    content: '';
+    background-image: url("https://findicons.com/files/icons/719/crystal_clear_actions/64/agt_action_success.png");
+    background-size: contain;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-right: .25em;
+}

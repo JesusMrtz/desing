@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    width: 500px;
+    height: 350px;
+    background: hsl(10, 90%, 50%);
+    margin: 100px auto;
+    border-top-left-radius: 60px 120px;
+    border-top-right-radius: 60px 120px;
+    border-bottom-left-radius: 60px 120px;
+    border-bottom-right-radius: 60px 120px;
+}
+
+.play {
+    width: 200px;
+    height: 200px;
+    border: 100px solid;
+    border-color: transparent transparent transparent white;
+    position: absolute;
+    left: 47.5%;
+    top: 25%;
+    outline: 2px solid black;
+}
